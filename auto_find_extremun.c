@@ -18,7 +18,7 @@ int find_extremum_in_range(_in int min, _in int max,_in uint32_t (*f)(int))
 
     if (min == max)
         return min;
-    else if (max - min == 2) {  /* ÌØÊâÇé¿ö */
+    else if (max - min == 2) {  /* ç‰¹æ®Šæƒ…å†µ */
         f_retl = f(min);
         f_ret0 = f(min + 1);
         f_retr = f(min + 2);
@@ -32,7 +32,7 @@ int find_extremum_in_range(_in int min, _in int max,_in uint32_t (*f)(int))
     }
 
     /*
-     * ×ó±ß½ç
+     * å·¦è¾¹ç•Œ
      */
     f_max_x = min;
     f_ret0 = f(min);
@@ -53,7 +53,7 @@ int find_extremum_in_range(_in int min, _in int max,_in uint32_t (*f)(int))
     }
 
     /*
-     * ÓÒ±ß½ç
+     * å³è¾¹ç•Œ
      */
     f_retl = f_ret0;
     f_ret0 = f_retr;
