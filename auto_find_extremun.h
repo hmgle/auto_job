@@ -1,6 +1,6 @@
 #ifndef _AUTO_FIND_EXTREMUN_
 #define _AUTO_FIND_EXTREMUN_
-#define _in         /* ÊäÈë²ÎÊı */
+#define _in         /* è¾“å…¥å‚æ•° */
 
 #include <stdint.h>
 
